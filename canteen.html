@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set and responsive design -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canteen Page</title>
+    <!-- External stylesheet for consistent styling across the site -->
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+    <!-- Header section with logo for brand identity -->
+    <header>
+        <img src="images/creative-logo.png" id="campus-guide-logo" alt="OsloMet Campus Guide Logo" />
+    </header>
+
+    <!-- Primary navigation menu for wide screens -->
+    <nav>
+        <!-- 'id="menu"' for styling purposes -->
+        <ul id="menu">
+            <!-- Navigation links to different pages, with 'id="current"' for current page indication -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="accessibility.html">Accessibility</a></li>
+            <li><a href="topical.html">Topical</a></li>
+            <li><a href="canteen.html" id="current">Canteen</a></li>
+        </ul>
+    </nav>
+
+    <!-- Mobile header and navigation for smaller screens -->
+    <div class="navPhone">
+        <a href="index.html">
+            <h1>OsloMet</h1>
+        </a>
+        <!-- Hamburger menu for mobile view -->
+        <input type="checkbox" id="Toggle" />
+        <label for="Toggle">
+            <div class="hamburgerContainer">
+                <div class="line" id="active"></div>
+            </div>
+        </label>
+
+        <!-- Dropdown navigation menu for mobile screens -->
+        <div class="navPhoneDropDown">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="accessibility.html">Accessibility</a></li>
+                <li><a href="topical.html">Topical</a></li>
+                <li><a href="canteen.html" id="current">Canteen</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main content section of the page -->
+    <main>
+        <!-- Section for topical content -->
+        <section>
+            <!-- Article heading for user engagement -->
+            <h2>The Bistro at P35</h2>
+            <h3>A Culinary Oasis in the Heart of OsloMet</h3>
+            <p>
+                The Bistro at P35 is not just a place to eat; it's an experience. Indulge in a variety of
+                mouth-watering dishes, carefully crafted to satisfy your cravings in a vibrant and welcoming
+                atmosphere.
+            </p>
+            <!-- Image and description of the canteen -->
+            <figure>
+                <img src="images/BistroP35.jpeg" alt="Image of The Bistro at P35" />
+                <figcaption>
+                    Discover the culinary delights at The Bistro, where every meal is a journey.
+                    <span class="photographer">Photo: Maria Andersen</span>
+                </figcaption>
+            </figure>
+            <!-- Menu information -->
+            <h3>MENU</h3>
+            <h4 id="smallBreak">Monday - Friday:</h4>
+            <!-- Menu details and pricing -->
+            <div class="menuContainer">
+                <h4>Specialty Dishes</h4>
+                <p>Explore our daily specials, ranging from international cuisines to local favorites.</p>
+            </div>
+            <div class="menuContainer">
+                <h4>Price Range</h4>
+                <p>
+                    Our prices vary based on the dish. From budget-friendly options to gourmet delights,
+                    we have something for every palate.
+                </p>
+            </div>
+
+            <!-- Address information with a link to Google Maps -->
+            <h3>Address</h3>
+            <p>
+                Pilestredet 35, 0166 Oslo<br />
+                <a href="https://goo.gl/maps/MHKu53xgxr6nu66DA" class="links" target="_blank">See in Google Maps</a>
+            </p>
+        </section>
+    </main>
+</body>
+
+</html>
