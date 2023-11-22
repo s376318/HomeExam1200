@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set and responsive design -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <!-- External stylesheet for consistent styling across the site -->
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+    <!-- Header section with logo for brand identity -->
+    <header>
+        <img src="images/creative-logo.png" id="campus-guide-logo" alt="Creative Logo" />
+    </header>
+
+    <!-- Primary navigation menu for wide screens -->
+    <nav>
+        <!-- 'id="menu"' for styling purposes -->
+        <ul id="menu">
+            <!-- Navigation links to different pages, with 'id="current"' for current page indication -->
+            <li><a href="index.html" id="current">Home</a></li>
+            <li><a href="accessibility.html">Accessibility</a></li>
+            <li><a href="topical.html">Topical</a></li>
+            <li><a href="canteen.html">Canteen</a></li>
+        </ul>
+    </nav>
+
+    <!-- Mobile header and navigation for smaller screens -->
+    <div class="navPhone">
+        <a href="index.html">
+            <h1>OsloMet</h1>
+        </a>
+        <!-- Hamburger menu for mobile view -->
+        <input type="checkbox" id="Toggle" />
+        <label for="Toggle">
+            <div class="hamburgerContainer">
+                <div class="line" id="active"></div>
+            </div>
+        </label>
+
+        <!-- Dropdown navigation menu for mobile screens -->
+        <div class="navPhoneDropDown">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="accessibility.html">Accessibility</a></li>
+                <li><a href="topical.html">Topical</a></li>
+                <li><a href="canteen.html">Canteen</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main content section of the page -->
+    <main>
+        <!-- Section for topical content -->
+        <section>
+            <!-- Article heading for user engagement -->
+            <h2>Experience OsloMet's Unique Atmosphere</h2>
+
+            <p>
+                Embark on a journey through the dynamic world of OsloMet's Pilestredet 35. Immerse yourself in the
+                vibrant culture, cutting-edge facilities, and the spirit of exploration that defines our campus.
+            </p>
+
+            <!-- Image with caption for visual engagement and context -->
+            <figure>
+                <img src="images/creative-campus.jpg"
+                    alt="A creative representation of OsloMet's Pilestredet 35 campus" />
+                <figcaption>
+                    A creative representation of Pilestredet 35.
+                    <span class="photographer">Artwork by: Your Name</span>
+                </figcaption>
+            </figure>
+            <h2>Discover Innovation Beyond Boundaries</h2>
+            <p>
+                OsloMet's Pilestredet 35 is not just a campus; it's a canvas of ideas, where creativity meets
+                education. Uncover the spaces where knowledge blossoms, and connect with a community dedicated to
+                shaping the future. Join us as we redefine the boundaries of learning and imagination.
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer for site-wide information -->
+    <footer>
+        <p>&copy; 2023 OsloMet Campus Guide</p>
+    </footer>
+</body>
+
+</html>

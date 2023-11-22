@@ -1,5 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
+<head>
+    <!-- Meta tags for character set and responsive design -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Topical Page</title>
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+    <!-- Header and navigation section -->
+    <header>
+        <!-- logo for the Topical page -->
+        <img src="images/creative-logo.png" id="topical-logo" alt="Topical Logo" />
+    </header>
+    <nav>
+        <ul id="menu">
+            <!-- Navigation links to different pages -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="accessibility.html">Accessibility</a></li>
+            <li><a href="topical.html" id="current">Topical</a></li>
+            <li><a href="canteen.html">Canteen</a></li>
+        </ul>
+    </nav>
+
+    <!-- Mobile header and navigation for smaller screens -->
+    <div class="navPhone">
+        <!-- Heading for the Topical page on mobile -->
+        <a href="topical.html">
+            <h1>Topical</h1>
+        </a>
+        <!-- Hamburger menu for mobile view -->
+        <input type="checkbox" id="Toggle" />
+        <label for="Toggle">
+            <div class="hamburgerContainer">
+                <div class="line" id="active"></div>
+            </div>
+        </label>
+
+        <!-- Dropdown navigation menu for mobile screens -->
+        <div class="navPhoneDropDown">
+            <ul>
+                <!-- Navigation links to different pages -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="accessibility.html">Accessibility</a></li>
+                <li><a href="topical.html" id="current">Topical</a></li>
+                <li><a href="canteen.html">Canteen</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main content section -->
+    <main>
+        <!-- Section for unique content on the Topical page -->
+        <section id="topical-section">
+            <!-- Article heading for user engagement -->
+            <h2>The Impact of Turkey on Global Technology and Society</h2>
+            <h3>Exploring the Intersection of Culture and Innovation</h3>
+            <p>
+                In the diverse landscape of global technology and society, we explore the unique contributions
+                and perspectives brought by Turkey, a country with a rich history and a growing influence on
+                modern advancements.
+            </p>
+            <!-- Unique image and description for the Topical page -->
+            <figure>
+                <img src="images/turkey-tech.jpg" alt="Turkey and Technology" />
+                <figcaption>
+                    Illustration depicting the synthesis of Turkish culture and technological innovation.
+                    <span class="photographer">Art by: TechVisions</span>
+                </figcaption>
+            </figure>
+
+            <!-- Insights and discussion on the topic -->
+            <h3>Key Topics</h3>
+            <div class="topicContainer">
+                <h4>E-commerce in Turkey</h4>
+                <p>
+                    Explore the dynamic e-commerce landscape in Turkey and its impact on global trade and
+                    digital economies.
+                </p>
+            </div>
+            <div class="topicContainer">
+                <h4>Startups and Innovation</h4>
+                <p>
+                    Uncover the thriving startup culture in Turkey and its role in fostering innovation and
+                    entrepreneurship.
+                </p>
+            </div>
+
+            <!-- Links to external sites for further exploration -->
+            <h3>Explore Further</h3>
+            <ul class="externalLinks">
+                <li><a href="https://www.turkey-in-tech.com/" class="links" target="_blank">Turkey in Tech</a></li>
+                <li><a href="https://startupistanbul.com/" class="links" target="_blank">Startup Istanbul</a></li>
+                <li><a href="https://www.turkishindustry.com/" class="links" target="_blank">Turkish Industry</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer for site-wide information -->
+    <footer>
+        <p>&copy; 2023 OsloMet Campus Guide</p>
+    </footer>
+</body>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,4 +117,5 @@
 <body>
     
 </body>
+
 </html>

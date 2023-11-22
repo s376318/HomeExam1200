@@ -1,5 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+  
+<head>
+    <!-- Meta tags for character set and responsive design -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessibility Page</title>
+    <!-- External stylesheet for consistent styling across the site -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- Additional stylesheet for unique styling of the Accessibility page -->
+    <link rel="stylesheet" href="styles/accessibility-style.css" />
+  </head>
+
+<body>
+    <!-- Header section with logo for brand identity -->
+    <header>
+        <img src="images/creative-logo.png" id="accessibility-logo" alt="Accessibility Logo" />
+    </header>
+
+    <!-- Primary navigation menu for wide screens -->
+    <nav>
+        <!-- 'id="menu"' for styling purposes -->
+        <ul id="menu">
+            <!-- Navigation links to different pages, with 'id="current"' for current page indication -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="accessibility.html" id="current">Accessibility</a></li>
+            <li><a href="topical.html">Topical</a></li>
+            <li><a href="canteen.html">Canteen</a></li>
+        </ul>
+    </nav>
+
+    <!-- Mobile header and navigation for smaller screens -->
+    <div class="navPhone">
+        <a href="index.html">
+            <h1>OsloMet</h1>
+        </a>
+        <!-- Hamburger menu for mobile view -->
+        <input type="checkbox" id="Toggle" />
+        <label for="Toggle">
+            <div class="hamburgerContainer">
+                <div class="line" id="active"></div>
+            </div>
+        </label>
+
+        <!-- Dropdown navigation menu for mobile screens -->
+        <div class="navPhoneDropDown">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="accessibility.html" id="current">Accessibility</a></li>
+                <li><a href="topical.html">Topical</a></li>
+                <li><a href="canteen.html">Canteen</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main content section of the page -->
+    <main>
+        <!-- Section for unique content on the Accessibility page -->
+        <section id="accessibility-section">
+            <!-- Article heading for user engagement -->
+            <h2>Breaking Barriers: The Power of Accessibility</h2>
+            <h3>Empowering All Through Inclusive Design</h3>
+            <p>
+                In the ever-evolving landscape of technology and society, accessibility is not just a feature;
+                it's a fundamental right. Join us on a journey where we explore the impact of accessible design
+                and the importance of creating digital spaces that are welcoming to all.
+            </p>
+            <!-- Unique image and description for the Accessibility page -->
+            <figure>
+                <img src="assets/images/accessibility-image.jpg" alt="Accessibility Illustration" />
+                <figcaption>
+                    Illustration depicting the diverse ways accessibility enhances the digital experience.
+                    <span class="artist">Art by: AccessVisions</span>
+                </figcaption>
+            </figure>
+
+            <!-- Insights and discussion on the topic -->
+            <h3>Key Concepts</h3>
+            <div class="conceptContainer">
+                <h4>Inclusive Design</h4>
+                <p>
+                    Explore the principles of inclusive design and how it goes beyond compliance, aiming to
+                    create experiences that cater to a wide range of abilities and preferences.
+                </p>
+            </div>
+            <div class="conceptContainer">
+                <h4>Assistive Technologies</h4>
+                <p>
+                    Learn about the various assistive technologies that empower individuals with disabilities,
+                    providing them with equal access to information and digital services.
+                </p>
+            </div>
+
+            <!-- Showcase of accessible features -->
+            <h3>Accessibility in Action</h3>
+            <ul class="featuresList">
+                <li>Text-to-speech functionality for content</li>
+                <li>High contrast color options for improved readability</li>
+                <li>Keyboard navigation for seamless interaction</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer for site-wide information -->
+    <footer>
+        <p>&copy; 2023 OsloMet Campus Guide</p>
+    </footer>
+</body>
+
+</html>
+=======
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
